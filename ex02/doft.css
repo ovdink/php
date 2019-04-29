@@ -1,0 +1,68 @@
+html {
+    background-color: rgb(83, 86, 89);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    background-color: rgb(144, 144, 144);
+    height: 80%;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    margin: 0 auto;
+    padding: 0.5% 0.1%;
+    margin-bottom: 1%;
+}
+.loupe {
+    position: absolute;
+    width: 17.5%;
+    margin-left: 21.8%;
+}
+.logo {
+    border-radius: 5px;
+    padding: 0.5%;
+    width: 40%;
+}
+.icons {
+    display: inline-block;
+    float: right;
+    width: 3%;
+}
+.reload {
+    width: 70%;
+}
+.close {
+    width: 70%;
+    margin-top: 250% ;
+}
+
+/* меню слева */
+.menu {
+    background-color: rgb(144, 144, 144);
+    height: 100%;
+    width: 11%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    margin-left: 16%;
+    padding: 10% 0%;
+    display: inline-block;
+    float: left;
+}
+
+/* меню справа */
+.bar {
+    background-color: rgb(144, 144, 144);
+    height: 100%;
+    width: 11%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+   /* margin: 1% 73%; */
+    padding: 10% 0%;
+    margin-left: 46%;
+    display: inline-block;
+    float: left;
+}
