@@ -7,25 +7,27 @@ body {
     height: 100%;
 }
 
+/* шапка */
 .header {
     background-color: rgb(144, 144, 144);
     height: 80%;
-    width: 70%;
-    border-radius: 5px;
+    width: 72%;
+    border-radius: 10px;
     box-shadow: 10px 10px 10px black;
-    margin: 0 auto;
-    padding: 0.5% 0.1%;
+    margin: 15px auto;
+    padding: 0;
     margin-bottom: 1%;
 }
 .loupe {
     position: absolute;
-    width: 17.5%;
-    margin-left: 21.8%;
+    width: 13.9%;
+    margin-left: 30.8%;
+    margin-top: 0.4%
 }
 .logo {
     border-radius: 5px;
     padding: 0.5%;
-    width: 40%;
+    width: 34%;
 }
 .icons {
     display: inline-block;
@@ -33,36 +35,131 @@ body {
     width: 3%;
 }
 .reload {
-    width: 70%;
+    width: 58%;
+    margin-top: 25%;
+    margin-left: 11%;
 }
 .close {
-    width: 70%;
-    margin-top: 250% ;
+    width: 58%;
+    margin-top: 168%;
+    margin-left: 11%;
 }
 
 /* меню слева */
 .menu {
     background-color: rgb(144, 144, 144);
     height: 100%;
-    width: 11%;
-    border-radius: 5px;
+    width: 8%;
+    border-radius: 10px;
     box-shadow: 10px 10px 10px black;
-    margin-left: 16%;
-    padding: 10% 0%;
+    margin-left: 15.4%;
+    padding: 0.9% 0%;
     display: inline-block;
     float: left;
 }
+.green {
+    width: 46%;
+    margin: -2% 0% 0% 26.5%;
+    float: left;
+}
+.hand{
+    width: 46%;
+    margin: 3% 0% 0% 26.5%;
+    float: left;
+}
+.eye {
+    width: 46%;
+    margin: 3% 0% 0% 26.5%;
+    float: left;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: red;
+    border-width: 5px;
+}
+.settings {
+    width: 46%;
+    margin: 4% 0% 0% 26.5%;
+    float: left;
+}
+.chat {
+    width: 46%;
+    margin: 2% 0% 0% 26.5%;
+    float: left;
+}
 
-/* меню справа */
-.bar {
+/* блок посередине */
+.center {
     background-color: rgb(144, 144, 144);
     height: 100%;
-    width: 11%;
-    border-radius: 5px;
+    width: 50%;
+    border-radius: 10px;
     box-shadow: 10px 10px 10px black;
-   /* margin: 1% 73%; */
-    padding: 10% 0%;
-    margin-left: 46%;
+    padding: 11.8% 0%;
+    margin-left: 1.5%;
     display: inline-block;
     float: left;
+}
+.photo {
+    width: 98%;
+    margin-top: -22.6%;
+    margin-bottom: -23%;
+    margin-left: 1%;
+}
+
+/* меню справа */
+.sidebar {
+    background-color: rgb(144, 144, 144);
+    height: 100%;
+    width: 8%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    margin-left: 1.5%;
+    padding: 4% 0%;
+    display: inline-block;
+    float: left;
+    
+}
+.book {
+    width: 46%;
+    margin: -40% 0% 0% 26.5%;
+    
+}
+.towel {
+    width: 46%;
+    margin: 6% 0% 0% 26.5%;
+}
+.brick {
+    height: 70px; /*проценты*/
+    width: 120px;
+    margin: 4% 0% 0% 11.5%;
+    background-image: url(resources/brick.jpg);
+    background-repeat: repeat;
+}
+
+/* форма */
+.form {
+    width: 27%;
+    height: 20%;
+    border: 0px;
+    color: black;
+    background-color: #7afa77;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    margin-left: 11.5%;
+    margin-top: 25%;
+    position: absolute;
+}
+
+.form p {
+  margin-left: 50%;
+}
+
+
+.redshadow {
+  font-family: sans-serif;
+  letter-spacing: 0.65px;
+  font-size: 17px; 
+  text-shadow: 5px 5px 5px red;
+  display: inline;
+  margin-left: 50%;
 }
