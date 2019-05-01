@@ -1,0 +1,40 @@
+body {
+    background: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+}
+li {
+    list-style: none;
+}
+
+.main-menu {
+    /*display: block;*/
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+.main-menu > li {
+    display: inline-block;
+    position: relative;
+    width: 6%;
+    padding-left: 5px;
+    margin-left: -4px;
+    font-style: italic;
+    color: mediumvioletred;
+}
+li {
+    background: aqua;
+    border: 1px dashed rebeccapurple;
+    padding: 5px 10px;
+}
+.submenu {
+    display: none;
+    width: 100%;
+    position: absolute;
+    padding: 0;
+    left: -1px;
+    top: 100%;
+}
+
+.main-menu > li:hover .submenu{
+    display: inline-block;
+}

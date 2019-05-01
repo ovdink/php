@@ -1,0 +1,77 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i.pinimg.com/originals/01/67/e9/0167e9df8103435b37b166aea72d57b3.jpg");
+    background-position: 100% auto;
+}
+h1 {
+    text-align: center;
+    font-family: Fira Code Medium;
+    font-style: oblique;
+    color: mediumvioletred;
+    text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0,
+    #cad5e2 3px 3px 0, #cad5e2 4px 4px 0,
+    #cad5e2 5px 5px 0;
+
+}
+table {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    font-size: 2vw;
+    font-weight: bold;
+    min-width: 4vw;
+    page-break-inside: avoid;
+    border-radius:7px;
+}
+th {
+    background-color: lightblue;
+    font-size: 1.1vw;
+}
+.nometal {
+    background-color: mediumspringgreen;
+}
+.inertgas {
+    background-color: dodgerblue;
+}
+.alkaline {
+    background-color: coral;
+}
+.alkalineearth {
+    background-color: darksalmon;
+}
+.transmetal {
+    background-color: indianred;
+}
+.halogen {
+    background-color: greenyellow;
+}
+.halfmetal {
+    background-color: limegreen;
+}
+.postmetal
+{
+    background-color: lightgrey;
+}
+.lactanoid {
+    background-color: palevioletred;
+}
+.actinoid {
+    background-color: mediumpurple;
+}
+.m {
+    text-align: right;
+    font-weight: normal;
+    font-size: 1vw;
+    margin: 0.1vw 0.1vw 0.5vw 0.5vw;
+}
+.num {
+    text-align: left;
+    font-weight: normal;
+    font-size: 1vw;
+    margin: 0vw 0vw 0vw 0vw;
+}
