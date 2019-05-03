@@ -6,6 +6,7 @@ if ($argc > 1) {
 		$arr = explode(" ", $argv[$i]);
 		$arr = array_diff($arr, [""]);
 		$total = array_merge($total, $arr);
+		print_r ($total);
     }
 	sort($total);
 	foreach ($total as $key => $value) {
