@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+body {
+  font-size: 28px;
+  background: linear-gradient(to right, mistyrose, lightsalmon);
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+}
+
+.header {
+  text-align: center;
+  font-family: "avengeance", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li.buttons-right {
+  float: right;
+  margin-right: 2vw;
+}
+
+li.cart {
+  margin-top: 0.2vw;
+  height: 0;
+}
+
+li.user {
+  margin-top: 0.2vw;
+  height: 0;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 1vw 1vw;
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.cart.buttons-right a img, .user.buttons-right a img {
+ /* margin-right: 0.65vw;*/
+ /*height: 2vw;
+ width: 1vw;*/
+}
+
+.active {
+  background-color: tomato;
+}
+
+
+/*линии с новинками и кнопкой*/
+
+.line {
+  height: 5vw;
+  background-color: white;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+}
+
+/*блок после меню*/
+.block {
+  text-align: center;
+  height: 10vw;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 10vw rgba(0,0,0,0.5);
+  padding: 1vw;
+}
+
+/*блок авторизации*/
+.logpass {
+  float: right;
+  margin-right: 2vw;
+  padding-bottom: 2vw;
+}
+
+/*картинки-комиксы*/
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 60%;
+  height: auto;
+  margin-left: 20vw;
+  margin-right:20vw;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+

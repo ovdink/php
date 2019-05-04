@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Comics Store</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media ="screen" />
+        <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	</head>
+	<body >
+        <div class="header">
+            <h2>COMICS  SHOP</h2>
+            <p>Мы открылись!</p>
+        </div>
+
+    <ul>
+        <li><a class="active" href="#home">Домой</a></li>
+        <li><a class="buttons" href="#catalog">Каталог</a></li>
+        <li><a class="buttons" href="#news">Новости</a></li>
+        <li><a class="buttons" href="#contact">Доставка</a></li>
+        <li class="buttons-right"><a href="#about">О нас</a></li>
+        <li class="cart buttons-right"><a href="#cart"><img src="pictures/cart.svg"><img></a></li>
+        <li class="user buttons-right"><a href="#user"><img src="pictures/user.svg"><img></a></li>
+    </ul>
+    <div class="block">
+      <h3>Здесь может быть ваша реклама или нет</h3>
+    </div>
+    <form class="logpass" method="post" action="/login/">
+    <table>
+        <tr>
+            <td><label for="loginField">Логин: </label></td>
+            <td><input id="loginField" type="text" name="login"></td>
+        </tr>
+        <tr>
+            <td><label for="passwordField">Пароль: </label></td>
+            <td><input id="passwordField" type="password" name="password"></td>
+        </tr>
+        <tr>
+          <td></td>
+            <td style="text-align: center"><input type="submit" value="Войти"></td>
+        </tr>
+    </table>
+</form>
+    <div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="pictures/batman1.jpg" alt="batman">
+  </a>
+  <div class="line">Новинка!</div>
+
+  <a target="_blank" href="img_forest.jpg">
+    <img src="pictures/batman2.jpg" alt="batman">
+  </a>
+  <div class="line">Новинка!</div>
+
+  <a target="_blank" href="pictures/s">
+    <img src="pictures/spider1.jpg" alt="spiderman">
+  </a>
+  <div class="line">Новинка!</div>
+
+  <a target="_blank" href="pictures/ironman1.jpg">
+    <img src="pictures/ironman1.jpg" alt="ironman">
+  </a>
+  <div class="line">Новинка!</div>
+</div>
+    </body>
+</html>
+
