@@ -14,14 +14,7 @@ body {
 }
 
 /* поля ввода */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
+
 
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
@@ -32,7 +25,16 @@ h1, p {
   text-align: center;
 }
 
-/* стиль кнопки регистрации */
+label {
+	display: flex;
+	justify-content: space-between;
+}
+
+img {
+	width: 10%;
+}
+
+/* стиль кнопки оплаты */
 .registerbtn {
   background-color: tomato;
   color: white;
@@ -48,13 +50,29 @@ h1, p {
   opacity: 1;
 }
 
-/* цвет для ссылок */
-a {
-  color: dodgerblue;
-}
 
 /* цвет для форм */
 .signin {
   background-color: #f1f1f1;
   text-align: center;
 }
+
+.flex-container	{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	margin-left: 100px;
+}
+
+/*для личного кабинета */
+
+.login {
+	text-align: center;
+}
+
+/*админка*/
