@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+
+body {
+  font-size: 28px;
+  background: linear-gradient(to right, mistyrose, lightsalmon);
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 10vw;
+}
+
+p {
+  font-size: 3vw;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+}
+
+.header {
+  text-align: center;
+  font-family: "avengeance", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  display: block;
+  height: 50px;
+  width: 100%;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li.buttons-right {
+  float: right;
+  margin-right: 2vw;
+  display: inline-block;
+}
+
+li.cart {
+  margin-top: 0.2vw;
+  height: 0;
+  width: 30px;
+}
+
+li.user {
+  margin-top: 0.2vw;
+  height: 0;
+  width: 30px;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 7.5px;
+  text-decoration: none;
+  font-family: 'Lobster', cursive;
+  line-height: 50px;
+  box-sizing: border-box;
+}
+
+li:hover {
+  background-color: #111;
+}
+
+.cart.buttons-right a img, .user.buttons-right a img {
+ /* margin-right: 0.65vw;*/
+ /*height: 2vw;
+ width: 1vw;*/
+}
+
+.active {
+  background-color: tomato;
+}
+
+
+/*линии с новинками и кнопкой*/
+
+.line {
+  font-family: 'Anton', sans-serif;
+  height: 5vw;
+  background-color: white;
+  text-align: center;
+  background: linear-gradient(to right, mistyrose, lightsalmon);
+}
+
+.line2 {
+  font-family: 'Lobster', cursive;
+  height: 5vw;
+  background-color: white;
+  text-align: center;
+  background: linear-gradient(to right, mistyrose, lightsalmon);
+}
+
+.dropdown {
+  position: absolute;
+  display: none;
+  /*top: 20px;*/
+  left: 10px;
+  z-index: 10000;
+}
+
+li:hover > .dropdown,
+li:hover > .dropdown a {
+  background-color: #333;
+  display: block;
+  left: 90px;
+  -webkit-text-stroke: 1px black;
+}
+
+li:hover > .dropdown a:hover{
+  background-color: tomato;
+}
+
+.ad-block {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*блок после меню*/
+.block {
+  color: black;
+  text-align: center;
+  background: white;
+  background-color: white;
+  box-shadow: 0 0 10vw rgba(0,0,0,0.5);
+  padding: 1vw;
+  width: 70%;
+}
+
+/*блок авторизации*/
+.logpass {
+  font-size: 17px;
+  float: right;
+  margin-right: 2vw;
+  padding-bottom: 2vw;
+}
+
+#reg button{
+  font-size: small;
+  margin-left: 28px;
+  padding: 1px 1px;
+  border-radius: 5px;
+  color: tomato;
+}
+
+/*картинки-комиксы*/
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: 90%;
+  box-shadow: 0 0 6vw rgba(0,0,0,0.5)
+}
+
+.comics_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.grid-item {
+  text-align: center;
+  margin: 10px;
+  flex-basis: 20%;
+  width: 259px;
+  box-sizing: border-box;
+}
+
+@media(max-width: 1333px) {
+  .grid-item {
+    flex-basis: 33.33%;
+  }
+}
+
+
+@media(max-width: 1073px) {
+   .grid-item {
+    flex-basis: 33.33%;
+  }
+}
+
+
+@media(max-width: 815px) {
+  .grid-item {
+    flex-basis: 50%;
+  }
+}
+
+@media(max-width: 555px) {
+  .grid-item {
+    flex-basis: 100%;
+  }
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+  height: 35px;
+}
+
+#pr {
+  color:red;
+  font-size: 1.2rem;
+  /*max-height: 35px;
+  min-width: : 35px;*/
+  color:tomato;
+  -webkit-text-stroke: 1px black;
+}
+
+#num {
+  width: 40px;
+  border-radius: 10px;
+}
+
+#button_cart {
+  border-radius: 5px;
+  color: black;
+  -webkit-text-stroke: 0.2px white;
+  background: linear-gradient(to right, white, gold);
+}
+

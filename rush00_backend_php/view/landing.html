@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Comics Store</title>
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media ="screen" />
+      <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+<!-- HEDER -->
+<body id="home">
+      <div class="header">
+          <h2>COMICS  SHOP</h2>
+          <p>Мы открылись!</p>
+      </div>
+
+  <ul>
+      <li><a class="active" href="#home">Домой</a></li>
+      <li><a href="javascript:void(0)" class="dropbtn">Каталог</a>
+          <div class="dropdown">
+            <a href="#dc">DC</a>
+            <a href="#marvel">Marvel</a>
+            <a href="#manga">Манга</a>
+            <a href="#russian">На русском</a>
+          </div>
+        </li>
+      <!-- <li><a class="buttons" href="#catalog">Каталог</a></li> -->
+      <li><a class="buttons" href="#contact">Доставка</a></li>
+      <li class="buttons-right"><a href="#about">О нас</a></li>
+      <li class="cart buttons-right"><a href="#cart"><img src="pictures/cart.svg"></a></li>
+      <li class="user buttons-right"><a href="#user"><img src="pictures/user.svg"></a></li>
+  </ul>
+<!-- HEDER CLOSE -->
+  <div class="ad-block">
+  <div class="block">
+    <h3>Здесь может быть ваша реклама или нет</h3>
+  </div>
+  <form class="logpass" method="post" action="/login/">
+    <table>
+        <tr>
+            <td><label for="loginField">Логин: </label></td>
+            <td><input id="loginField" type="text" name="login"></td>
+        </tr>
+        <tr>
+            <td><label for="passwordField">Пароль: </label></td>
+            <td><input id="passwordField" type="password" name="password"></td>
+        </tr>
+        <tr>
+          <td> </td>
+            <td style="text-align: center"><input type="submit" value="Войти"></td>
+        </tr>
+        <tr><td> </td>
+          <td id="reg"><a href="#registration"><button>Регистрация</button></a></td></tr>
+         
+    </table>
+  </form>  
+  </div>
+  <div class="gallery">
+      <div class="line" id="dc">DC</div>
+
+<!-- <a target="_blank" href="img_5terre.jpg"> -->
+    <div class="grid-row">
+      <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/batman1.jpg?x-email=ovdin_kirill%40mail.ru" alt="dc">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/dc2.jpg?x-email=ovdin_kirill%40mail.ru" alt="dc">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/dc3.jpg?x-email=ovdin_kirill%40mail.ru" alt="dc">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/dc4.jpg?x-email=ovdin_kirill%40mail.ru" alt="dc">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+    </div>
+<!-- </a> -->
+<div class="line" id="marvel">Marvel</div>
+
+<!-- <a target="_blank" href="img_forest.jpg"> -->
+  <div class="grid-row">
+      <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/ironman1.jpg?x-email=ovdin_kirill%40mail.ru" alt="marvel">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/marvel2.jpg?x-email=ovdin_kirill%40mail.ru" alt="marvel">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/marvel3.jpg?x-email=ovdin_kirill%40mail.ru" alt="marvel">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/marvel4.jpg?x-email=ovdin_kirill%40mail.ru" alt="marvel">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+    </div>
+<!-- </a> -->
+<div class="line2" id="manga">Манга</div>
+
+<!-- <a target="_blank" href="pictures/s"> -->
+  <div class="grid-row">
+      <div class="grid-item">
+        <img src="https://cloclo23.datacloudmail.ru/view/manga1.png?etag=F0A2A4A37E6D1DF58EF7D63177E5B4FDD5D94CC0&x-email=ovdin_kirill%40mail.ru" alt="manga">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/manga2.jpg?x-email=ovdin_kirill%40mail.ru" alt="manga">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/manga3.jpg?x-email=ovdin_kirill%40mail.ru" alt="manga">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/manga4.jpg?x-email=ovdin_kirill%40mail.ru" alt="manga">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+    </div>
+<!--</a> -->
+<div class="line2" id="russian">На русском</div>
+
+<!-- <a target="_blank" href="pictures/ironman1.jpg"> -->
+  <div class="grid-row">
+      <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/rus1.jpg?x-email=ovdin_kirill%40mail.ru" alt="rus">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/rus2.jpg?x-email=ovdin_kirill%40mail.ru" alt="rus">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/rus3.jpg?x-email=ovdin_kirill%40mail.ru" alt="rus">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+        <div class="grid-item">
+        <img src="https://thumb.cloud.mail.ru/thumb/xw1/rus4.jpg?x-email=ovdin_kirill%40mail.ru" alt="rus">
+        <div class="price">
+          <p id="pr">300 рублей</p>
+          <input id="num" type="number">
+        <button id="button_cart">Добавить в корзину</button></div>
+      </div>
+    </div>
+<!-- </a> -->
+
+<!-- FOOTER -->
+</body>
+</html>
+

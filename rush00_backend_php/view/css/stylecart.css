@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, mistyrose, lightsalmon);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* отступы */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* поля ввода */
+
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+h1, p {
+  text-align: center;
+}
+
+label {
+	display: flex;
+	justify-content: space-between;
+}
+
+img {
+	width: 10%;
+}
+
+/* стиль кнопки оплаты */
+.registerbtn {
+  background-color: tomato;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+/* цвет для форм */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.flex-container	{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+	margin-left: 100px;
+}
+
+/*для личного кабинета */
+
+.login {
+	text-align: center;
+}
+
+/*админка*/

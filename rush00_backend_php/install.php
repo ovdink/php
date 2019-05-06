@@ -1,0 +1,13 @@
+<?php
+	include_once('db_connect.php');
+	include_once('db_functions.php');
+	include_once('fill_users.php');
+	include_once('fill_items.php');
+	include_once('fill_category.php');
+	include_once('fill_products.php');
+	include_once('fill_table_orders.php');
+	include_once('fill_table_purchases.php');
+	include_once('get_list_category.php');
+	include_once('get_list_items.php');
+	include_once('get_products.php');
+?>
