@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #balloon {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 50%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Balloon</title>
+</head>
+<body>
+    <div id="balloon" onclick="bigger(this)" onmouseout="mouse(this)"></div>
+    <script>
+        var height = 200;
+        var width = 200;
+        const color = ["red", "green", "blue"];
+        color2 = 0;
+        function bigger(bal) {
+            // height += 10;
+            // width += 10;
+            // console.log(balloon.offsetWidth);
+            // console.log(balloon.offsetHeight);
+            // bal.offsetHeight = 230;
+            // console.log(balloon.offsetHeight); 
+
+            console.log(getComputedStyle(balloon).height);
+            // console.log(bal.style.height);
+            height += 10;
+            width += 10;
+            if (height > 420) {
+                height = 200;
+                width = 200;
+            }
+            bal.style.height = height+"px";
+            bal.style.width = width+"px";
+            color2++;
+            if (color2 == 3)
+                color2 = 0;
+            bal.style.backgroundColor = color[color2];
+            
+            // for(key in arr)
+            //     console.log ("КЛЮЧ БЛЯТЬЖ ");
+        }
+        function mouse(bal) {
+            height -= 10;
+            width -= 10;
+
+           
+             if (height < 200) {
+                 height = 200;
+                 width = 200;
+             }
+            bal.style.height = height+"px";
+            bal.style.width = width+"px";
+            color2--;
+            if (color2 == -1)
+                color2 = 2;
+            bal.style.backgroundColor = color[color2];
+            // if (color_ == color)
+            //     color2++;
+            
+        }
+    </script>
+</body>
+</html>
