@@ -23,19 +23,14 @@
 </head>
 <body>
     <div id="balloon" onclick="bigger(this)" onmouseout="mouse(this)"></div>
-    <script>
+    <script> 
         var height = 200;
         var width = 200;
         const color = ["red", "green", "blue"];
         color2 = 0;
         function bigger(bal) {
-            // height += 10;
-            // width += 10;
             // console.log(balloon.offsetWidth);
-            // console.log(balloon.offsetHeight);
-            // bal.offsetHeight = 230;
             // console.log(balloon.offsetHeight); 
-
             console.log(getComputedStyle(balloon).height);
             // console.log(bal.style.height);
             height += 10;
@@ -50,15 +45,10 @@
             if (color2 == 3)
                 color2 = 0;
             bal.style.backgroundColor = color[color2];
-            
-            // for(key in arr)
-            //     console.log ("КЛЮЧ БЛЯТЬЖ ");
         }
         function mouse(bal) {
-            height -= 10;
-            width -= 10;
-
-           
+            height -= 5;
+            width -= 5;
              if (height < 200) {
                  height = 200;
                  width = 200;
@@ -69,9 +59,6 @@
             if (color2 == -1)
                 color2 = 2;
             bal.style.backgroundColor = color[color2];
-            // if (color_ == color)
-            //     color2++;
-            
         }
     </script>
 </body>

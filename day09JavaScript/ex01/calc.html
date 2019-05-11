@@ -15,18 +15,68 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>calc</title>
 </head>
+<script>
+    setInterval(function() {
+        alert("Please, use me...")}, 30000);
+
+    function input() {
+        var first = Number(document.getElementById("cell_first").value);
+        var second = Number(document.getElementById("cell_second").value);
+        var sign = document.getElementById("sign").value;
+        //console.log(first);
+        if (first >= 0 && second === 0 && (sign === '/' || sign === '%')) {
+            alert("It’s over 9000!");
+            if (sign === '/')
+                console.log(first / second);
+            else
+                console.log(first % second);
+            return;
+        }
+        if (first >= 0 && second >= 0) {
+            //alert(document.getElementById("cell1").value);
+            switch (sign) {
+                case '+':
+                    console.log(first + second);
+                    alert(first + second);
+                    break;
+                case '-':
+                    console.log(first - second);
+                    alert(first - second);
+                    break;
+                case '*':
+                    console.log(first * second);
+                    alert(first * second);
+                    break;
+                case '/':
+                    console.log(first / second);
+                    alert(first / second);
+                    break;
+                case '%':
+                    console.log(first % second);
+                    alert(first % second);
+                    break;
+            }
+        }
+        else
+            alert("Error :(");   
+     }
+    // document.getElementById("submit").onclick = input;
+    // function operation() {
+        // var sign = document.getElementById("sign").value;   
+    //}
+</script>
 <body>
     <div id="form"></div>
-    <input type="text">
-        <select type="text">
+    <input type="text" id="cell_first"/>
+        <select type="text" id="sign">
             <option value="+">+</option>
             <option value="-">-</option>
             <option value="*">*</option>
             <option value="/">/</option>
             <option value="%">%</option>
         </select>
-        <input type="text">
-        <button id="submit" name="submit" value="OK">Try me!</button>
+    <input type="text" id="cell_second"/>
+    <button id="submit" name="submit" value="OK" onclick="input()">Try me!</button>
     </div>
 </body>
 </html>
